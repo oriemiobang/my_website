@@ -88,18 +88,18 @@ setInterval(() => {
 //     });
 //     });
 // });
-$(document).ready(function() {
-  $(".icon").click(function() {
-      $(".query").slideToggle();
-      $(this).html(function(_, html) {
-          return html === '☰' ? '✖' : '☰';
-      });
-  });
-  $(".links1").click(function() {
-    $(".query").slideUp();
-    $(".icon").html('☰');
-  });
-});
+// $(document).ready(function() {
+//   $(".icon").click(function() {
+//       $(".query").slideToggle();
+//       $(this).html(function(_, html) {
+//           return html === '☰' ? '✖' : '☰';
+//       });
+//   });
+//   $(".links1").click(function() {
+//     $(".query").slideUp();
+//     $(".icon").html('☰');
+//   });
+// });
 
 // $(document).ready(function() {
 //   $(".icon").click(function() {
