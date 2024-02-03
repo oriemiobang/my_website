@@ -118,6 +118,7 @@ header ul .contact{
     display: flex;
     align-items: center;
     width: 100%;
+    background-attachment: fixed;
 }
 
 .page1_surface{
