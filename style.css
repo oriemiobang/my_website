@@ -111,8 +111,8 @@ header ul .contact{
     font-family: 'Roboto', sans-serif;
     /* padding: 100px; */
     /* height: 120vh; */
-    background: url('assets/oriemi_pic.png');
-    background-size:500px;
+    background: url('assets/oriemi_front.jpg');
+    background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
     display: flex;
@@ -370,7 +370,7 @@ header ul .contact{
 .page4_div{
 
     width: 50%;
-    height: 100vh;
+    height: 125vh;
     padding: 30px;
     /* background-color: red; */
 }
@@ -551,16 +551,16 @@ header ul .contact{
 }
 
 .skill_container1 circle{
-    animation: anim1 2s linear forwards;
+    animation: anim1 3s linear forwards;
 }
 .skill_container2 circle{
-    animation: anim2 2s linear forwards;
+    animation: anim2 3s linear forwards;
 }
 .skill_container3 circle{
-    animation: anim3 2s linear forwards;
+    animation: anim3 3s linear forwards;
 }
 .skill_container4 circle{
-    animation: anim4 2s linear forwards;
+    animation: anim4 3s linear forwards ;
 }
 
 
@@ -600,7 +600,7 @@ svg{
     background: var(--hoverColor);
     border-radius: 5px; 
     -webkit-transition: 3s all;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-name: animationProgress;
 }
 @keyframes  animationProgress {
@@ -1125,7 +1125,9 @@ footer{
     }
     /* ============ page 1 ============= */
     .page1_item{
-        margin-top: 250px;
+        /* margin-top: 250px; */
+        margin-top:500px ;
+        /* background-color: red; */
         font-family: 'Roboto', sans-serif;
     }
     /* .page1{
@@ -1295,7 +1297,8 @@ footer{
         flex-direction: column; 
     }
     .page4_div2{
-        margin-top: -90px;
+        /* margin-top: -120px; */
+        /* height: 80vh; */
     }
     .tools{
         display: flex;
@@ -1334,7 +1337,9 @@ footer{
     border: none;
     padding: 0;
 }
-.page4_div{width: 100%;}
+.page4_div{
+    height: 95vh;
+    width: 100%;}
 .page4_div2{
    
     padding: 0;
