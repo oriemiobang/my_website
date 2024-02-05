@@ -1,7 +1,7 @@
 const header = document.querySelector('.header');
 let lastScrollTop = 0;
-const templateId = 'template_trq93t4';
-const serviceId = 'service_zx29ihn';
+const templateId = 'template_2qsl1j5';
+const serviceId = 'service_16pyqn6';
 
 window.addEventListener('scroll', () => {
   const currentScrollTop = window.scrollY;
@@ -164,40 +164,106 @@ function sendEmail(event){
 
 
    
-function sendEmail2(event){
-  event.preventDefault();
-console.log("it's working")
+// function sendEmail2(event){
+//   event.preventDefault();
+// console.log("it's working")
 
-let email = document.getElementById('email2').value;
+// let email = document.getElementById('email2').value;
 
 
-  const paramsObj = {
-    username: "",
-    email:email,
-    message: "a subscription email " + email,
-    subject: "",  
-    phone: ""
-  };
-  console.log(email);
+//   const paramsObj = {
+//     username: "",
+//     email:email,
+//     message: "a subscription email " + email,
+//     subject: "",  
+//     phone: ""
+//   };
+//   console.log(email);
 
-  emailjs.send(serviceId, templateId, paramsObj)
-    .then((response)=>{ 
+//   emailjs.send(serviceId, templateId, paramsObj)
+//     .then((response)=>{ 
 
-    document.getElementById('email2').value = "";
+//     document.getElementById('email2').value = "";
 
   
-      alert("Email sent")
-      console.log(response)
+//       alert("Email sent")
+//       console.log(response)
     
 
 
-    })
-    .catch((error)=>{
-      console.log(error)
-      alert("Couldn't send email check your Network connection ")
-    })
+//     })
+//     .catch((error)=>{
+//       console.log(error)
+//       alert("Couldn't send email check your Network connection ")
+//     })
 
   
-}
+// }
 
   
+
+// function sendEmail(){
+//   Email.send({
+//       Host : "smtp.gmail.com",
+//       Username : "oriemiobango@gmail.com",
+//       Password : "B553B4522846E7A8CA37C1EAB0267853F31D",
+//       To : 'oriemiobango@gmail.com',
+//       From : document.getElementById('email').value,
+//       Subject : 'new',
+//       phone: 'ffdfd',
+//       Body : "And this is the body"
+// }).then(
+//   message => alert(message)
+// );
+// }
+//B553B4522846E7A8CA37C1EAB0267853F31D
+
+// const btn = document.getElementById('button');
+
+// document.getElementById('form')
+//  .addEventListener('submit', function(event) {
+//    event.preventDefault();
+
+//    const formData = new FormData(event.target);
+//      const paramsObj = {
+//        username: formData.get('username'),
+//        email:formData.get('email'),
+//        message: formData.get('message'),
+//        subject: formData.get('subject'), 
+//        phone: formData.get('phone')
+//      };
+
+//    btn.value = 'Sending...';
+
+//    const serviceID = 'service_16pyqn6';
+//    const templateID = 'template_2qsl1j5';
+
+//    emailjs.sendForm(serviceID, templateID, paramsObj)
+//     .then((response) => {
+//       btn.value = 'Send Email';
+//       alert('Sent!');
+//     }, (err) => {
+//       alert("Email sent successfully")
+//       alert(JSON.stringify(err));
+//     });
+// });
+
+
+// emailjs.send(serviceId, templateId, paramsObj)
+//     .then((response)=>{ 
+//     document.getElementById('username').value = "";
+//     document.getElementById('email').value = "";
+//     document.getElementById('message').value = "";
+//     document.getElementById('subject').value = "";
+//     document.getElementById('phone').value = "";
+  
+//       alert("Email sent")
+//       console.log(response)
+    
+
+
+//     })
+//     .catch((error)=>{
+//       console.log(error)
+//       alert("Couldn't send email check your Network connection ")
+//     })
