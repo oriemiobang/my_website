@@ -1149,6 +1149,7 @@ footer{
     .workImage, .serve{
         /* grid-template-columns: repeat(1, 1fr); */
         display: flex;
+        padding-bottom: 20px;
         flex-direction: column;
         /* grid-row-gap: 10px; */
         transition: .5s;
