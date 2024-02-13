@@ -155,7 +155,7 @@ header ul .contact{
 }
 
 .secondpage p{
-    font-size: 16px;
+    font-size: 30px;
     /* font-family: monospace; */
     font-family: 'Roboto', sans-serif;
 }
@@ -184,6 +184,11 @@ header ul .contact{
     padding: 0.5rem 0;
     border: 2px solid transparent;
     transition: .5s;
+}
+
+#p1, #p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 /* ========== Page 2================== */
@@ -365,7 +370,7 @@ header ul .contact{
     height: 30px;
 }
 .page4{
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     display: flex;
 }
 .page4_div{
@@ -490,7 +495,7 @@ header ul .contact{
 }
 .progressBar{
     width: 80%;
-    height: 4px;
+    height: 6px;
     background-color: rgba(52, 51, 51, 0.578);
     border-radius: 5px;
 }
@@ -546,7 +551,7 @@ header ul .contact{
     fill: none;
     stroke: rgb(255, 187, 0);
     width: 5px;
-    stroke-width: 1px;
+    stroke-width: 3px;
     stroke-dasharray: 450;
     stroke-dashoffset: 450;
 }
@@ -597,7 +602,7 @@ svg{
 .percentam{
     width: 80%;
     width: 60%;
-    height: 3px;
+    height: 6px;
     background: var(--hoverColor);
     border-radius: 5px; 
     -webkit-transition: 3s all;
@@ -1138,9 +1143,6 @@ footer{
     .secondpage h1{
         font-size: 45px;
     }
-    .secondpage p{
-        font-size: 8px;
-    }
     
     .secondpage button{
         font-size: 12px;
@@ -1292,7 +1294,7 @@ footer{
         width: 53%;
     }
     .page4{
-        height: 370vh;
+        height: 376vh;
         padding: 20px;
         margin: 0;
         display: flex;
@@ -1364,7 +1366,7 @@ footer{
         display: flex;
         flex-direction: column;
         border-bottom: 1px rgba(245, 245, 245, 0.13) solid;
-        padding: 5% 0 0 5%;
+        padding: 15% 0 0 5%;
         padding-bottom: 15px;
         color: inherit;
         border-top: 1px rgba(245, 245, 245, 0.13) solid;
