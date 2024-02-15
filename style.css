@@ -108,7 +108,8 @@ header ul .contact{
 /* ========== Page 1 ================== */
 
 .page1{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Quintessential", serif;
     /* padding: 100px; */
     /* height: 120vh; */
     background: url('assets/oriemi_front.jpg');
@@ -162,18 +163,40 @@ header ul .contact{
 
 .secondpage button{
     font-size: 17px;
-    color: white;
-    background: var(--hoverColor);
+    /* color: white; */
+    background-color: rgba(255, 0, 0, 0);
+    /* background: var(--hoverColor); */
     padding: 15px 30px;
     margin-top: 20px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     border: none;
+    animation: bounce 2s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
-.secondpage button:hover{
-    background: var(--secondary-color);
-    transition: .5s;
+@keyframes bounce{
+    0%{transform: translateY(0px);}
+    40%{transform: translateY(-20px);}
+    60%{transform: translateY(-10px);}
+}
+
+.scroll-button img{
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+/* .secondpage button:hover{ */
+    /* background: var(--secondary-color); */
+    /* transition: .5s;
     cursor: pointer;
+} */
+#scroll-button{
+    background-color: none;
+
 }
 
 .secondpage a{
